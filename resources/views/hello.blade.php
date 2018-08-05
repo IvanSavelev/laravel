@@ -79,9 +79,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    <ul>
-
-                    </ul>
+                    <?php foreach ($name as $item) { ?>
+                    <?= $item ?>
+                    <?php } ?>
                 </div>
 
                 <div class="links">
